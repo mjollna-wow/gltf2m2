@@ -15,6 +15,7 @@ This scripts converts a gltf + bin file (Blender export 2.77a) into m2 + skin fo
 git clone https://github.com/KhronosGroup/glTF-Blender-Exporter.git (it might take some time, repo is ~275Mb)r
 
 Follow this procedure to have textures properly linked : ( https://github.com/KhronosGroup/glTF-Blender-Exporter/blob/master/docs/user.md )
+
 - Open your Blender file.
 - Use Cycles engine.
 - File menu > *append* > go to the repo folder > pbr_node/glTF2.blend > NodeTree > glTF Metallic Roughness.
@@ -24,6 +25,7 @@ Follow this procedure to have textures properly linked : ( https://github.com/Kh
 - Add a texture image, and link it to the base color of the gltf group.
 
 Before exporting : 
+
 - For now, only one texture per mesh is ok.
 - Use a single UV island for your model. If more than one island is used, UV mapping & actually the whole model look completely scrambled ingame. Mark seam is ok though.
 - You can select smooth shading (object mode) to have nicer normals ingame.
