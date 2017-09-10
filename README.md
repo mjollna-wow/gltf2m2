@@ -32,6 +32,7 @@ Before exporting :
 - Work in quads and apply a triangulate modifier just before exporting (wrench icon > modifier > triangulate > apply).
 
 Export options : 
+
 - Select your mesh in object mode.
 - File > export > gltf (not glb !)
 - export selected only
@@ -44,6 +45,7 @@ Export options :
 - keyframes start with 0
 
 Commandline (be sure to have textures and bin files in the same folder) : 
+
 - python main.py yourfile.gltf world\texturepath\
 - argument 1 : input gltf file
 - argument 2 : textures path of the output m2.
