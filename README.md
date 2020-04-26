@@ -1,6 +1,7 @@
-# Credits and licence
+This repo has been migrated from Bitbucket and converted from Mercurial to git.
 
-The code below is released under https://www.gnu.org/licenses/gpl-3.0.txt
+# Credits
+
 Author : Mjollna (admin@mjollna.org), 2017-09
 
 Thx gamh for https://bitbucket.org/Shgck/pywmo/ , it helped a lot for structs and other stuff ! :)    
